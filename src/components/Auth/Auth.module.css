@@ -1,0 +1,47 @@
+.Cover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80');
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px whitesmoke;
+    min-width: 30vw;
+    min-height: 40vh;
+    border-radius: 5px;
+    background-color: rgba(71, 71, 71, 0.7);
+    box-shadow: 0px 0px 100px #f7d692;
+}
+
+
+
+.AuthForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.AuthFormInput {
+    margin-top: 20px;
+    min-width: 20rem;
+    min-height: 2rem;
+}
+
+.AuthFormButton {
+    margin-top: 20px;
+    min-width: 10rem;
+    min-height: 2rem;
+    cursor: pointer;
+}
